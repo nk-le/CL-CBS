@@ -7,7 +7,7 @@ find_package(PkgConfig)
 pkg_check_modules(YamlCpp yaml-cpp)
 
 ## OPEN MOTION PLANNING LIBRARY
-find_package(OMPL REQUIRED)
+find_package(ompl REQUIRED)
 
 if(NOT OMPL_FOUND)
     message(AUTHOR_WARNING,"Open Motion Planning Library not found")
